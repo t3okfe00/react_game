@@ -15,3 +15,11 @@ export type displacement = {
 };
 
 export type PositionKey = "posX" | "posY";
+
+export type MouseProps = {
+  posX: number;
+  posY: number;
+  width: number;
+  height: number;
+  trigger: boolean;
+};
